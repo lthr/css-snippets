@@ -16,9 +16,9 @@ img:not([alt]) {
 ### jQuery animate CSS classes
 
 ```javascript
-$('.some-class').addClass('animate');
+var el = $('.some-class');
+el.addClass('animate');
 setTimeout(function () {
-  listItems.hide().slice(i, i + 1).show();
-  $('.some-class').removeClass('animate');
-}, 250);
+  el.removeClass('animate');
+}, 200);
 ```
