@@ -12,3 +12,13 @@ img:not([alt]) {
   border: 5px dashed #c00;
 }
 ```
+
+### jQuery animate CSS classes
+
+```javascript
+$('.some-class').addClass('animate');
+setTimeout(function () {
+  listItems.hide().slice(i, i + 1).show();
+  $('.some-class').removeClass('animate');
+}, 250);
+```
